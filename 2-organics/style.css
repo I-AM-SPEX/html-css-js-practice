@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  width: 100%;
+}
+
+main {
+  padding: 20px 20px;
+  border: 1px solid red;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.hero-section h1 {
+  font-size: 35px;
+  margin-bottom: 28px;
+}
+
+.hero-section p {
+  margin-bottom: 28px;
+}
+
+.hero-section button {
+  background-color: #285e68;
+  font-size: 19px;
+  color: white;
+  border-radius: 67px;
+  padding: 16px;
+  width: 206px;
+  border: none;
+  /*text-align: center;*/
+}
+
+.main-images-section img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.well-being-section {
+  text-align: center;
+  padding: 68px 40px;
+  background-color: #f4f4f4;
+  margin-bottom: 24px;
+}
+
+.well-being-section h1 {
+  font-size: 35px;
+
+  margin-bottom: 28px;
+}
+
+.well-being-section-item {
+  margin-bottom: 28px;
+}
+
+.fresh-produce-section {
+  text-align: center;
+}
+
+.fresh-produce-section img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.fresh-produce-section h1 {
+  font-size: 35px;
+  margin-bottom: 28px;
+}
+
+.fresh-produce-section p {
+  margin-bottom: 28px;
+}
+
+.fresh-produce-section-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.what-you-eat-section {
+  text-align: center;
+  padding: 68px 40px;
+  background-color: #f4f4f4;
+  margin-bottom: 24px;
+}
+
+.what-you-eat-section h1 {
+  font-size: 35px;
+
+  margin-bottom: 28px;
+}
+
+.what-you-eat-section-item {
+  margin-bottom: 28px;
+}
+
+.forest {
+  background: url("./assets/images/image-4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 68px 40px;
+  height: inherit;
+}
+
+.forest p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.forest button {
+  background: transparent;
+  font-size: 19px;
+  color: white;
+  border-radius: 67px;
+  padding: 16px;
+  width: 194px;
+  border: 1px white solid;
+  /*text-align: center;*/
+}
+
+.plant-items-section {
+  background-color: #fde2d7;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -40px;
+
+  text-align: center;
+  padding: 68px 40px;
+  margin-bottom: 25px;
+}
+
+.plant-items-section-item {
+  margin-bottom: 24px;
+}
+
+footer {
+  color: white;
+  padding: 68px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+
+  /*position: absolute;*/
+  /*bottom: 0px;*/
+  background-color: #285e68;
+}
+
+.footer-text {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
